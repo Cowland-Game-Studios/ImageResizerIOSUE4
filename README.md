@@ -50,3 +50,4 @@ You should recieve a "Successfully converted image" message, else something may 
 
 ![image](https://user-images.githubusercontent.com/50122069/111880170-2b49ad00-8980-11eb-91cc-05b22095483f.png)
 
+**Note: Steps 7 & 8 will not work if it is your first time on a new project, you will have to manually make a new `Graphics` folder in `YourUnrealProject/Build/IOS/Resources/` and drag those images in, and having to manually select every image for each slot. However if you are going to change the images for the future, you are all set by just dragging and dropping again and replacing**
