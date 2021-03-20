@@ -42,10 +42,9 @@ You should recieve a "Successfully converted image" message, else something may 
 
 ![image](https://user-images.githubusercontent.com/50122069/111880064-9050d300-897f-11eb-8f66-63f1921442d1.png)
 
-
 7. Drag and drop the images into the `YourUnrealProject/Build/IOS/Resources/Graphics` folder
 
-![image](https://user-images.githubusercontent.com/50122069/111880188-4caa9900-8980-11eb-95b3-a0b83e5d9650.png)
+![image](https://user-images.githubusercontent.com/50122069/111880203-63e98680-8980-11eb-9291-a1adcded532d.png)
 
 8. It should update in the game engine after a restart
 
