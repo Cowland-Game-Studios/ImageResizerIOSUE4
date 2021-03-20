@@ -30,3 +30,18 @@ Image stats:
 
 4. Run the program with `python3 ImageResizer.py`, make sure you have the dependencies installed, and also make sure you are in the root directory, so it can detect your image.
 
+You should recieve a "Successfully converted image" message, else something may have went wrong
+
+![image](https://user-images.githubusercontent.com/50122069/111880030-6ac3c980-897f-11eb-826e-ac08c6dfa59e.png)
+
+5. Go to the `./Result/` folder, and you should have a timestamped folder
+
+![image](https://user-images.githubusercontent.com/50122069/111880050-829b4d80-897f-11eb-81b9-7e827466f8ec.png)
+
+6. Go into the most recent folder, you should have the generated images here
+
+![image](https://user-images.githubusercontent.com/50122069/111880064-9050d300-897f-11eb-8f66-63f1921442d1.png)
+
+
+
+
