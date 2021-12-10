@@ -1,5 +1,5 @@
 from PIL import Image  
-from datetime import datetime
+import datetime
 import os
 
 DictionairyOfSizes = {
@@ -15,13 +15,15 @@ DictionairyOfSizes = {
     1024 : 1
 }
 
-TargetImage = Image.open("./Source/Target.png")
+CurrentDir = os.path.dirname(os.path.realpath(__file__))
 
-FolderTimestamp = datetime.now()
+TargetImage = Image.open(rf"{CurrentDir}/Source/Target.png")
 
-Directory = f"./Result/{FolderTimestamp.strftime('''%d-%m-%Y-%H-%M-%S''')}"
+FolderTimestamp = datetime.datetime.now().strftime('%Y_%m_%d_%H_%M_%S')
 
-os.mkdir(Directory)
+Directory = rf"{CurrentDir}/Result/{FolderTimestamp}"
+
+os.mkdir(Directory.replace("\\", "/"))
 
 for key in list(DictionairyOfSizes.keys()):
 
